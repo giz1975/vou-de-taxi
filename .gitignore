@@ -1,0 +1,28 @@
+﻿# data (do not version)
+data/
+*.parquet
+*.csv
+
+# generated reports
+reports/
+*.html
+
+# notebooks
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.dist/
+build/
+*.egg-info/
+
+# backups/temp
+docker-compose.yml.bak*
+*.bak
+.local_backup/
+
+# editor/os
+.vscode/
+.DS_Store

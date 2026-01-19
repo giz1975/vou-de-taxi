@@ -1,0 +1,14 @@
+# Normaliza EOL no repo (evita warning LF<->CRLF)
+* text=auto
+
+# Markdown e TXT: manter LF
+*.md   text eol=lf
+*.txt  text eol=lf
+
+# Scripts PowerShell: manter CRLF
+*.ps1  text eol=crlf
+
+# JSON/YAML: manter LF
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
